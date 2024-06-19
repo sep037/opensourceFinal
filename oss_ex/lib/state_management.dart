@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyAppState extends ChangeNotifier {
-  var favorites = <String>[]; // 즐겨찾기 문자열 리스트
-  var likes = <String>[]; // 좋아요한 단어 리스트
+  var favorites = <String>[]; 
+  var likes = <String>[]; 
 
   void toggleFavorite(String item) {
     if (favorites.contains(item)) {

@@ -28,18 +28,18 @@ class ContactPage extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.camera_alt, color: Colors.black, size: 40), // Instagram 아이콘
+              Icon(Icons.camera_alt, color: Colors.black, size: 40), 
               SizedBox(width: 10),
-              Text('se_p037', style: TextStyle(fontSize: 18)), // 인스타그램 아이디
+              Text('se_p037', style: TextStyle(fontSize: 18)), 
             ],
           ),
           SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.code, color: Colors.black, size: 40), // GitHub 아이콘
+              Icon(Icons.code, color: Colors.black, size: 40), 
               SizedBox(width: 10),
-              Text('sep037', style: TextStyle(fontSize: 18)), // 깃허브 아이디
+              Text('sep037', style: TextStyle(fontSize: 18)), 
             ],
           ),
         ],
